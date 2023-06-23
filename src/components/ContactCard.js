@@ -1,8 +1,8 @@
 import React from "react";
 import user from "../../src/images/user.png";
 
-const ContactCard = ({ contacts }) => {
-  let { id, name, email } = contacts;
+const ContactCard = ( contacts ) => {
+  let { name, email } = contacts;
   return (
     <div className="item">
       <img className="ui avatar image" src={user} alt="user" />

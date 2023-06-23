@@ -7,7 +7,7 @@ import AddContact from './AddContact'
 function App() {
   const [contacts ,setContacts] = useState([])
   const addContactHandler = (contact) =>{
-    setContacts(...contacts , contact)
+    setContacts([...contacts , contact])
   }
  
   return (
